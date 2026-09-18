@@ -71,12 +71,12 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:4200",
         "http://localhost:52045",
+        "https://contract-iq-deployment.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 
 # =========================================================
 # REGISTER ROUTERS
