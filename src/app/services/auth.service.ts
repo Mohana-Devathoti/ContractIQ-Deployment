@@ -25,7 +25,7 @@ export class AuthService {
 
   private readonly http = inject(HttpClient);
 
-  private readonly apiUrl = 'http://127.0.0.1:8000';
+  private readonly apiUrl = 'https://contractiq-backend-0jnq.onrender.com';
 
   login(username: string, password: string): Observable<LoginResponse> {
 

@@ -16,7 +16,7 @@ export class ContractService {
 
   private readonly http = inject(HttpClient);
 
-  private readonly apiUrl = 'http://127.0.0.1:8000/contracts';
+  private readonly apiUrl = 'https://contractiq-backend-0jnq.onrender.com/contracts';
 
   getContracts(): Observable<Contract[]> {
     return this.http.get<Contract[]>(this.apiUrl);

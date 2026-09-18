@@ -12,7 +12,7 @@ import {
 })
 export class ComplianceService {
 
-  private readonly apiUrl = 'http://127.0.0.1:8000/compliance';
+  private readonly apiUrl = 'https://contractiq-backend-0jnq.onrender.com/compliance';
 
   constructor(private readonly http: HttpClient) {}
 

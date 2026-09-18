@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class DashboardService {
 
-  private apiUrl = 'http://127.0.0.1:8000/reports/dashboard';
+  private apiUrl = 'https://contractiq-backend-0jnq.onrender.com/reports/dashboard';
 
   constructor(private http: HttpClient) {}
 

@@ -13,7 +13,7 @@ import {
   providedIn: 'root'
 })
 export class ObligationService {
-  private readonly apiUrl = 'http://127.0.0.1:8000/obligations';
+  private readonly apiUrl = 'https://contractiq-backend-0jnq.onrender.com/obligations';
 
   constructor(private http: HttpClient) {}
 

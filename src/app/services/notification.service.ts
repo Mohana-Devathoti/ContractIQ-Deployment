@@ -10,7 +10,7 @@ import { Notification } from '../models/notification.model';
 export class NotificationService {
 
   private readonly apiUrl =
-    'http://127.0.0.1:8000/notifications';
+    'https://contractiq-backend-0jnq.onrender.com/notifications';
 
   constructor(
     private readonly http: HttpClient

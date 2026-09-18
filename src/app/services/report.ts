@@ -8,7 +8,7 @@ import { Observable, map } from 'rxjs';
 export class ReportService {
 
   private readonly apiUrl =
-    'http://127.0.0.1:8000/reports';
+    'https://contractiq-backend-0jnq.onrender.com/reports';
 
   constructor(
     private readonly http: HttpClient

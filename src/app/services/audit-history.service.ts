@@ -8,7 +8,7 @@ import { AuditLog } from '../models/audit-history.model';
 })
 export class AuditHistoryService {
 
-  private readonly apiUrl = 'http://127.0.0.1:8000/audit-logs';
+  private readonly apiUrl = 'https://contractiq-backend-0jnq.onrender.com/audit-logs';
 
   constructor(private readonly http: HttpClient) {}
 
