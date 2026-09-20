@@ -15,7 +15,7 @@ from app.database.database import Base
 
 
 class ContractCompliance(Base):
-    __tablename__ = "compliance_records"
+    __tablename__ = "contract_compliance"
 
     # =========================================================
     # PRIMARY KEY
